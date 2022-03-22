@@ -39,36 +39,42 @@ body {
 } */
 }
 
-.bodyclass {
+/* .bodyclass {
   display: none;
 }
 @media (min-width: 320px) {
   .bodyclass {
     display: block;
   }
-}
+} */
 
-.cloud1 {
+/* .cloud1 {
   height: auto;
   width: 18%;
   display: flex;
   position: relative;
-  left: 200px;
-  top: 150px;
-  margin: 40px 60px 40px 60px;
-}
+  left: 0;
+  top: 100px;
+  margin: 0 auto 0 auto;
+} */
 
-.cloud2 {
+/* .cloud2 {
   height: auto;
   width: 18%;
   position: relative;
   display: flex;
   top: -60px;
   margin: -30px 60px 40px 60px;
-}
+} */
+
+/* .cloud2 {
+  position: relative;
+  margin-left: 100px;
+  display: flex;
+} */
 
 .cloud3 {
-  width: 18%;
+  /* width: 18%; */
   height: auto;
   position: relative;
   display: flex;
@@ -86,12 +92,11 @@ body {
 .mountain {
   height: auto;
   max-width: 100%;
-  width: 50%;
+  /* width: 50%; */
   position: relative;
   display: flex;
-  left: 20px;
   bottom: 100px;
-  margin: 40px 60px 40px 60px;
+  margin: 40px -39px 40px auto;
 }
 
 /* .profileImg {
@@ -192,7 +197,7 @@ p {
   color: #66bfbf;
   font-family: "League Spartan", sans-serif;
   text-align: center;
-  margin: 0 auto 60px 15px;
+  margin: 0 100px 60px auto;
 }
 
 .dotted {
