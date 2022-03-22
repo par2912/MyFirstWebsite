@@ -1,59 +1,93 @@
 body {
-  margin: 0;
+  /* margin: 0; */
   text-align: center;
   background-color: #f7f7f7;
 }
 
-h1 {
+/* h1 {
   color: #66bfbf;
-  font-size: 70px;
+  font-size: 80px;
   margin: 0 auto 0 auto;
   font-family: "Pacifico", cursive;
+  text-align: center; 
+}  */
+
+.a-navbar-brand {
+  font-size: 50px;
+  color: #66bfbf;
+  font-family: "Pacifico", cursive;
+  margin: 0 auto 0 auto;
+  margin-bottom: 15px;
 }
 
 .resume {
+  line-height: 1.5;
   color: #66bfbf;
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
+  margin: 0 auto 0 auto;
+  text-align: center;
 }
 
 .top-container {
   background-color: #e4f9f5;
-  position: relative;
+  /* position: relative; */
   padding: 90px;
-  margin: auto;
+  margin-bottom: 25px;
+  /* margin: auto;
+} */
 }
 
 .cloud1 {
-  position: absolute;
-  right: 200px;
-  top: 200px;
-  left: 200px;
+  height: auto;
+  max-width: 40%;
+  display: flex;
+  position: relative;
+  left: 170px;
+  top: 120px;
 }
 
 .cloud2 {
-  position: absolute;
-  top: 30px;
-  right: 400px;
+  height: auto;
+  max-width: 40%;
+  position: relative;
+  display: flex;
 }
 
 .cloud3 {
-  position: absolute;
-  right: 150px;
-  bottom: 400px;
+  max-width: 40%;
+  height: auto;
+  position: relative;
+  display: flex;
+  right: 170px;
+  top: 70px;
 }
+
+/* .clouddiv {
+  min-width: auto;
+  max-width: 50%;
+  height: auto;
+} */
 
 .mountain {
-  height: 100%;
-  margin: 0 auto;
+  height: auto;
   max-width: 100%;
+  width: fit-content;
+  position: relative;
+  left: 20px;
+  bottom: 50px;
 }
 
-.profileImg {
+/* .profileImg {
   position: relative;
   top: 100px;
   left: 0;
   bottom: 400px;
+} */
+
+.h4 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 120px;
 }
 
 .skill-row {
@@ -68,11 +102,11 @@ p {
   text-align: left;
 }
 
-.middle-container {
+/* .middle-container {
 }
 
 .bottom-container {
-}
+} */
 
 .developer-img {
   height: auto;
@@ -82,24 +116,26 @@ p {
   margin-right: 30px;
 }
 
-.profile-p {
+/* .profile-p {
   text-align: center;
   margin: auto;
-}
+} */
 
 .design-img {
   height: auto;
-  width: 25%;
+  width: 24%;
   max-width: 100%;
   float: left;
   margin-right: 30px;
+  margin-left: 5px;
 }
 
-.h2head {
-  font-size: 40px;
-  font-weight: bold;
+h4 {
+  display: flow-root;
+  font-weight: 800;
   color: #66bfbf;
   font-family: "League Spartan", sans-serif;
+  text-align: center;
 }
 
 .h2skills {
@@ -107,6 +143,15 @@ p {
   font-weight: bold;
   color: #66bfbf;
   font-family: "League Spartan", sans-serif;
+  text-align: center;
+}
+
+.d1 {
+  margin-top: 80px;
+}
+
+.d2 {
+  margin-top: 50px;
 }
 
 p {
@@ -114,17 +159,51 @@ p {
   line-height: 2;
 }
 
-hr {
-  border: dotted #66bfbf 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
+.display-6 {
+  margin-top: -100px;
+}
+
+.dotted {
+  border-style: dotted;
+  height: 23px;
+  width: 23px;
+  background-color: #e4f6f6;
+  border-radius: 100%;
+  border: none !important;
+  position: relative;
+  display: inline-block;
+}
+
+.dotted2 {
+  border-style: dotted;
+  height: 23px;
+  width: 23px;
+  background-color: #e4f6f6;
+  border-radius: 100%;
+  border: none !important;
+  position: relative;
+  display: inline-block;
+}
+
+.dotted3 {
+  border-style: dotted;
+  height: 23px;
+  width: 23px;
+  /* background-color: #66bfbf; */
+  color: #66bfbf;
+  border-radius: 100%;
+  border: none !important;
+  position: relative;
+  display: inline-block;
 }
 
 .h2header2 {
   color: #66bfbf;
   font-family: "League Spartan", sans-serif;
   margin-bottom: 50px;
+}
+.display-8 {
+  margin-top: -100px;
 }
 
 .contact-me {
@@ -138,7 +217,7 @@ hr {
 h3 {
   color: #11999e;
   font-family: "League Spartan", sans-serif;
-  text-align: left;
+  margin-left: 15px;
 }
 
 .lasth3 {
@@ -148,11 +227,13 @@ h3 {
 .lastP {
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  margin-left: 25px;
 }
 
 .contact-me {
   width: 30%;
   margin: 40px auto 60px;
+  text-align: center;
 }
 
 .cta {
@@ -162,6 +243,7 @@ h3 {
   transition: all 0.2s ease;
   border: none;
   background: none;
+  text-align: center;
 }
 
 .cta:before {
@@ -187,7 +269,7 @@ h3 {
 }
 
 .cta svg {
-  psoition: relative;
+  position: relative;
   top: 0;
   margin-left: 10px;
   fill: none;
@@ -218,10 +300,9 @@ h3 {
 
 .bottom-margin {
   background-color: #66bfbf;
-  height: 80px;
+  height: auto;
   width: 100%;
   margin-top: 30px;
-  font-size: 18px;
   text-align: center;
   padding: 50px 0 20px;
 }
@@ -239,8 +320,14 @@ a:hover {
 
 .arinelli-p {
   text-align: center;
-  font-family: "League Spartan", sans-serif;
+  font-family: "Pacifico", cursive;
   color: #eaf6f6;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   padding: 20px 0;
+}
+
+.footer-link {
+  font-family: "League Spartan", sans-serif;
+  color: #fff;
+  font-size: 20px;
 }
