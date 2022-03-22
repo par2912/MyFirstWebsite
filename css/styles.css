@@ -1,5 +1,5 @@
 body {
-  /* margin: 0; */
+  margin: 0;
   text-align: center;
   background-color: #f7f7f7;
 }
@@ -32,35 +32,49 @@ body {
 .top-container {
   background-color: #e4f9f5;
   /* position: relative; */
-  padding: 90px;
-  margin-bottom: 25px;
+  padding-top: 90px;
+
+  /* margin-bottom: 25px; */
   /* margin: auto;
 } */
 }
 
+.bodyclass {
+  display: none;
+}
+@media (min-width: 320px) {
+  .bodyclass {
+    display: block;
+  }
+}
+
 .cloud1 {
   height: auto;
-  max-width: 40%;
+  width: 18%;
   display: flex;
   position: relative;
-  left: 170px;
-  top: 120px;
+  left: 200px;
+  top: 150px;
+  margin: 40px 60px 40px 60px;
 }
 
 .cloud2 {
   height: auto;
-  max-width: 40%;
+  width: 18%;
   position: relative;
   display: flex;
+  top: -60px;
+  margin: -30px 60px 40px 60px;
 }
 
 .cloud3 {
-  max-width: 40%;
+  width: 18%;
   height: auto;
   position: relative;
   display: flex;
   right: 170px;
-  top: 70px;
+  top: 0;
+  margin: 40px 60px 40px 60px;
 }
 
 /* .clouddiv {
@@ -72,10 +86,12 @@ body {
 .mountain {
   height: auto;
   max-width: 100%;
-  width: fit-content;
+  width: 50%;
   position: relative;
+  display: flex;
   left: 20px;
-  bottom: 50px;
+  bottom: 100px;
+  margin: 40px 60px 40px 60px;
 }
 
 /* .profileImg {
@@ -93,7 +109,7 @@ body {
 .skill-row {
   width: 50%;
   position: inline-block;
-  margin: 100px auto 100px auto;
+  margin: 80px auto 120px auto;
   line-height: 190%;
 }
 
@@ -131,11 +147,12 @@ p {
 }
 
 h4 {
-  display: flow-root;
+  display: inline-block;
   font-weight: 800;
   color: #66bfbf;
   font-family: "League Spartan", sans-serif;
   text-align: center;
+  margin: 0 auto 0 15px;
 }
 
 .h2skills {
@@ -147,11 +164,21 @@ h4 {
 }
 
 .d1 {
-  margin-top: 80px;
+  display: block;
+  position: relative;
+  /* margin-top: 80px;
+  margin-right: 370px; */
+  text-align: center;
+  margin: 0 auto 0 auto;
 }
 
 .d2 {
-  margin-top: 50px;
+  display: block;
+  position: relative;
+  /* margin-top: 80px;
+  margin-right: 370px; */
+  text-align: center;
+  margin: 0 auto -30px auto;
 }
 
 p {
@@ -160,7 +187,12 @@ p {
 }
 
 .display-6 {
-  margin-top: -100px;
+  display: inline-block;
+  font-weight: 800;
+  color: #66bfbf;
+  font-family: "League Spartan", sans-serif;
+  text-align: center;
+  margin: 0 auto 60px 15px;
 }
 
 .dotted {
@@ -187,14 +219,15 @@ p {
 
 .dotted3 {
   border-style: dotted;
-  height: 23px;
-  width: 23px;
+  height: 23px !important;
+  width: 23px !important;
   /* background-color: #66bfbf; */
   color: #66bfbf;
   border-radius: 100%;
-  border: none !important;
-  position: relative;
+  border: none;
+  position: relative !important;
   display: inline-block;
+  margin-left: 23px;
 }
 
 .h2header2 {
@@ -203,7 +236,13 @@ p {
   margin-bottom: 50px;
 }
 .display-8 {
-  margin-top: -100px;
+  display: inline-block;
+  position: relative;
+  font-weight: 800;
+  color: #66bfbf;
+  font-family: "League Spartan", sans-serif;
+  text-align: center;
+  margin: 0 auto 30px auto;
 }
 
 .contact-me {
