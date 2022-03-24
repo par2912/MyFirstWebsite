@@ -1,7 +1,21 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   text-align: center;
-  background-color: #f7f7f7;
+  padding: 30px;
+}
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, #b2ebf2d6, #0097a7d6),
+    url(../images/galaxy.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
 /* h1 {
@@ -14,30 +28,33 @@ body {
 
 .a-navbar-brand {
   font-size: 50px;
-  color: #66bfbf;
+  color: #fff;
   font-family: "Pacifico", cursive;
   margin: 0 auto 0 auto;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
+  padding: 30px;
+  line-height: 2;
 }
 
 .resume {
-  line-height: 1.5;
-  color: #66bfbf;
+  line-height: 1.2;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   margin: 0 auto 0 auto;
   text-align: center;
 }
 
-.top-container {
-  background-color: #e4f9f5;
+/* .top-container {
+  background-color: linear-gradient(to bottom, #b2ebf2, #0097a7);
+  background-position: top;
   /* position: relative; */
-  padding-top: 90px;
+/* padding-top: 90px; */
+/* background-size: cover; */
 
-  /* margin-bottom: 25px; */
-  /* margin: auto;
+/* margin-bottom: 25px; */
+/* margin: auto;
 } */
-}
 
 /* .bodyclass {
   display: none;
@@ -53,9 +70,9 @@ body {
   width: 18%;
   display: flex;
   position: relative;
-  left: 0;
-  top: 100px;
-  margin: 0 auto 0 auto;
+  margin: 0 30px 30px 30px;
+  background-size: cover;
+  opacity: 60%;
 } */
 
 /* .cloud2 {
@@ -73,15 +90,16 @@ body {
   display: flex;
 } */
 
-.cloud3 {
-  /* width: 18%; */
+/* .cloud3 {
+  width: 18%;
   height: auto;
   position: relative;
-  display: flex;
+  display: relative;
   right: 170px;
   top: 0;
   margin: 40px 60px 40px 60px;
-}
+ 
+} */
 
 /* .clouddiv {
   min-width: auto;
@@ -89,15 +107,15 @@ body {
   height: auto;
 } */
 
-.mountain {
+/* .mountain {
   height: auto;
   max-width: 100%;
-  /* width: 50%; */
+  width: 50%;
   position: relative;
   display: flex;
   bottom: 100px;
   margin: 40px -39px 40px auto;
-}
+} */
 
 /* .profileImg {
   position: relative;
@@ -261,7 +279,7 @@ p {
 h3 {
   color: #11999e;
   font-family: "League Spartan", sans-serif;
-  /* margin-left: 15px; */
+  margin-left: 15px;
 }
 
 .lasth3 {
