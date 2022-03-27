@@ -7,11 +7,12 @@
 body {
   text-align: center;
   padding: 30px;
+  font-family: "League Spartan", sans-serif;
 }
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, #b2ebf2d6, #0097a7d6),
+  background-image: linear-gradient(to right bottom, #b2ebf2d6, #00c5dbd6),
     url(../images/galaxy.jpg);
   background-size: cover;
   /* position: relative; 
@@ -38,6 +39,7 @@ body {
 
 .primary-main {
   font-size: 60px;
+  font-weight: 700;
 
   position: relative;
   color: #fff;
@@ -78,8 +80,8 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   /* margin: 0 auto 0 auto; */
-  margin-top: 10px;
-  font-weight: 700;
+  margin-top: -30px;
+  font-weight: 400;
 
   letter-spacing: 5px;
   animation-name: resumeInRight;
@@ -178,21 +180,35 @@ body {
   bottom: 400px;
 } */
 
-.h4 {
-  font-family: "League Spartan", sans-serif;
-  font-size: 120px;
-}
-
-.skill-row {
+.skill-row1 {
   width: 50%;
   position: block;
-  margin: 80px auto 120px auto;
+  margin: 80px auto 50px auto;
+  background-color: #f1f3f583;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(1, 1, 1, 0.07);
+  padding: 18px;
+
+  /* line-height: 190%; */
+}
+.skill-row2 {
+  width: 50%;
+  position: block;
+  margin: 0 auto 120px auto;
+  background-color: #f1f3f583;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(1, 1, 1, 0.07);
+  padding: 18px;
+
   /* line-height: 190%; */
 }
 
-p {
+.pheader3 {
   position: block;
-  text-align: left;
+  font-size: 16px;
+  color: #213c4591;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* .middle-container {
@@ -203,7 +219,7 @@ p {
 
 .developer-img {
   height: auto;
-  width: 25%;
+  width: 17%;
   max-width: 100%;
   float: left;
   margin-right: 30px;
@@ -216,7 +232,7 @@ p {
 
 .design-img {
   height: auto;
-  width: 24%;
+  width: 17%;
   max-width: 100%;
   float: left;
   margin-right: 30px;
@@ -225,19 +241,11 @@ p {
 
 h4 {
   display: inline-block;
-  font-weight: 800;
-  color: #66bfbf;
+  font-weight: 700;
+  color: #100573;
   font-family: "League Spartan", sans-serif;
   text-align: center;
   margin: 0 auto 0 15px;
-}
-
-.h2skills {
-  font-size: 40px;
-  font-weight: bold;
-  color: #66bfbf;
-  font-family: "League Spartan", sans-serif;
-  text-align: center;
 }
 
 .d1 {
@@ -258,18 +266,14 @@ h4 {
   margin: 0 auto -30px auto;
 }
 
-p {
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.7;
-}
-
 .display-6 {
   display: inline-block;
-  font-weight: 800;
-  color: #66bfbf;
+  font-weight: 700;
+
   font-family: "League Spartan", sans-serif;
   text-align: center;
   margin: 0 100px 60px auto;
+  color: #66bfbf;
 }
 
 /* .dotted {
@@ -307,15 +311,15 @@ p {
 /* margin-left: 23px; */
 /* } */
 
-.h2header2 {
+/* .h2header2 {
   color: #66bfbf;
   font-family: "League Spartan", sans-serif;
   margin-bottom: 50px;
-}
+} */
 .display-8 {
   display: inline-block;
   position: relative;
-  font-weight: 800;
+  font-weight: 700;
   color: #66bfbf;
   font-family: "League Spartan", sans-serif;
   text-align: center;
@@ -324,6 +328,7 @@ p {
 
 .contact-me {
   font-family: "League Spartan", sans-serif;
+  color: #66bfbf;
 }
 
 /* .footer-link {
@@ -331,13 +336,19 @@ p {
 } */
 
 h3 {
-  color: #11999e;
+  color: #66bfbf;
   font-family: "League Spartan", sans-serif;
+  font-weight: 700;
   margin-left: 15px;
+  font-size: 44px;
 }
 
-.lasth3 {
-  text-align: center;
+.header3 {
+  color: #66bfbf;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  margin-left: 15px;
+  font-size: 36px;
 }
 
 /* .lastP {
@@ -350,6 +361,7 @@ h3 {
   width: 30%;
   margin: 40px auto 60px;
   text-align: center;
+  color: #66bfbf;
 }
 
 .cta {
@@ -378,7 +390,7 @@ h3 {
 .cta span {
   position: relative;
   font-family: "League Spartan", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.05em;
   color: #234567;
@@ -425,7 +437,7 @@ h3 {
 
 a {
   font-family: "League Spartan", sans-serif;
-  color: #11999e;
+  color: #66bfbf;
   margin: auto 20px;
   text-decoration: none;
 }
