@@ -8,9 +8,42 @@ body {
   text-align: center;
   /* padding: 30px; */
   font-family: "League Spartan", sans-serif;
-  background-color: #f4b7c7;
+  background-color: #000000!important;
   height: 1024px;
   width: 100%;
+}
+
+.bodycontainer {
+  height: 300px;
+}
+
+h1 {
+  margin-left: 50px;
+  font-family: "Monteserrat" , sans-serif;
+  transform: rotate(-4deg);
+  font-size: 36px!important;
+}
+
+h2 {
+  transform: rotate(-2deg);
+  margin-left: 50px;
+  font-size: 32px;
+}
+
+h3 {
+  padding-top: 10px;
+  transform: rotate(1deg);
+  margin-left: 50px;
+  padding-top: 20px;
+  font-size: 32px;
+}
+
+h5 {
+  font-size: 26px !important;
+  margin-top: 10px;
+  margin-left: 50px;
+  transform: rotate(4deg);
+  padding-top: 25px;
 }
 
 .header {
